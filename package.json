@@ -1,0 +1,31 @@
+{
+  "name": "newscraping",
+  "version": "1.0.0",
+  "description": "nytimes headline news scrape",
+  "main": "mongo_uri.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.13.17",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonwells10/newsScraping.git"
+  },
+  "author": "jonathon wells",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonwells10/newsScraping/issues"
+  },
+  "homepage": "https://github.com/jonwells10/newsScraping#readme"
+}
